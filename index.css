@@ -1,0 +1,116 @@
+/* Write your code here. */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.container {
+  font-family: Roboto;
+  width: 140px;
+  height: fit-content;
+}
+.heading {
+  font-size: 1rem;
+  color: #0f172a;
+  text-align: center;
+}
+.Notifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+.Notification-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 0.5rem;
+  width: 100%;
+}
+.info {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.danger {
+  background-color: #ff0b37;
+}
+.message {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.notification {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media screen and (min-width: 480px) and (max-width: 576px) {
+  .Notification-container {
+    padding: 20px;
+    width: 500px;
+  }
+  .message {
+    font-size: 2.5rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .notification {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Notification-container {
+    padding: 30px;
+    width: 600px;
+  }
+  .message {
+    font-size: 3rem;
+  }
+  .heading {
+    font-size: 4rem;
+  }
+  .notification {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .Notification-container {
+    padding: 20px;
+    width: 920px;
+  }
+  .message {
+    font-size: 4rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .notification {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Notification-container {
+    padding: 20px;
+    width: 1000px;
+  }
+  .message {
+    font-size: 2.5rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .notification {
+    width: 2rem;
+    height: 2rem;
+  }
+}
